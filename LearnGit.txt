@@ -1,6 +1,13 @@
 // Init V1.0
 // V1.1 add pull request
-// V1.2 
+// V1.2
+
+*************************************
+1. 安装 git for windows v2.34.1
+	https://gitforwindows.org/
+2. 安装TortoiseGit，为GIT GUI
+	https://tortoisegit.org/download/
+*************************************
 
 1. 常用 Git 命令清单
 http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
