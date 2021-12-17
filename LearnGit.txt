@@ -209,3 +209,4 @@ Step3: ·¢Æğ pull request ¸øÔ­²Ö¿â£¬ÈÃËû¿´µ½ÄãĞŞ¸ÄµÄ bugÔ­²Ö¿â review Õâ¸ö bug£¬È
 ~  git add . && git commit -m "test-pr"
 ~  git push origin test-pr
 »Øµ½test-pr·ÖÖ§£¬µã»÷Compare&pull request°´Å¥£¬Ìí¼Ó×¢ÊÍ£¬µã»÷¡°Create pull request¡±£¬¾Í¿ÉÍ¨ÖªRepository×÷Õß£¬ËûÈÏÎªÊÇ¶ÔµÄ¾Í»ámerge£¬ºÏ²¢µ½ËûµÄÏîÄ¿ÖĞ
+
