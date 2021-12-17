@@ -192,3 +192,8 @@ $ git stash pop
 十、其他
 # 生成一个可供发布的压缩包
 $ git archive
+
+2. pull request/push/switch,checkout
+https://www.zhihu.com/question/21682976
+
+
