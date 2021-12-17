@@ -1,4 +1,5 @@
 // Init V1.0
+// V1.1 add pull request
 
 1. 常用 Git 命令清单
 http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
@@ -196,4 +197,6 @@ $ git archive
 2. pull request/push/switch,checkout
 https://www.zhihu.com/question/21682976
 
-
+Step1: 先fork别人的仓库，相当于拷贝一份
+Step: clone 到本地分支，做一些 bug fix,commit/push
+Step3: 发起 pull request 给原仓库，让他看到你修改的 bug原仓库 review 这个 bug，如果是正确的话，就会 merge 到他自己的项目中至此，整个 pull request 的过程就结束了。
