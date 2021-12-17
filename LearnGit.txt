@@ -1,5 +1,6 @@
 // Init V1.0
 // V1.1 add pull request
+// V1.2 
 
 1. 常用 Git 命令清单
 http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
@@ -200,3 +201,11 @@ https://www.zhihu.com/question/21682976
 Step1: 先fork别人的仓库，相当于拷贝一份
 Step: clone 到本地分支，做一些 bug fix,commit/push
 Step3: 发起 pull request 给原仓库，让他看到你修改的 bug原仓库 review 这个 bug，如果是正确的话，就会 merge 到他自己的项目中至此，整个 pull request 的过程就结束了。
+
+样例：
+~  git clone https://github.com/beepony/bootstrap.git
+~  cd bootstrap
+~  git checkout -b test-pr
+~  git add . && git commit -m "test-pr"
+~  git push origin test-pr
+回到test-pr分支，点击Compare&pull request按钮，添加注释，点击“Create pull request”，就可通知Repository作者，他认为是对的就会merge，合并到他的项目中
